@@ -1,2 +1,2 @@
 # About website
-This is page under construction. Please come back later.
+This page is under construction. Please come back later.
