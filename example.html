@@ -7,11 +7,11 @@
             src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
     </script>
 	<script type="text/javascript">
-        $(document).ready(function () {
+          $(document).ready(function () {
 			
 		 $('#loadBtn').click(function(){
 			
-			$('#msgDiv').load('https://web-sys1.github.io/proceed.html?url=http://localhost/fApp/public/appdev/v8-context/devtools/frontend/inspector.html'  // data 
+			$('#msgDiv').load('https://web-sys1.github.io/proceed.html',
 					function(data, status, jqXGR) {  // callback function 
 							alert('data loaded');
 					});
