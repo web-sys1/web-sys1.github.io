@@ -11,8 +11,7 @@
 			
 		 $('#loadBtn').click(function(){
 			
-			$('#msgDiv').load('https://web-sys1.github.io/proceed.html', // url 
-					{ url: 'bill' },    // data 
+			$('#msgDiv').load('https://web-sys1.github.io/proceed.html?url=http://localhost/fApp/public/appdev/v8-context/devtools/frontend/inspector.html'  // data 
 					function(data, status, jqXGR) {  // callback function 
 							alert('data loaded');
 					});
